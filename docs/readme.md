@@ -6,10 +6,10 @@ A < g > se le pueden aplicar clases que van a incidir en todos los < path > que 
 
 < use xlink:href="#momUno" >< / use >
 
-"#momUno" se refiere al id dentro dl contenedor < g >
+"#momUno" se refiere al id dentro del contenedor < g >
  
-El atributo fill de cada path (el tono gris  de cada pieza) es el que mas  se destaca al momento de activar la animación pensada para  la imagen. Con javascript se agregan 5 clases diferentes al elemento envolvente de los path,  < g >. Las clases, al momento de insertarse, activan las animaciones definidas dentro del archivo de estilos. La inserción se produce justo al cliquear sobre el ícono "play". 
+El atributo "fill" de cada path (el tono gris  de cada pieza) es el que mas  se destaca al activar la animación pensada para  la imagen. Con javascript se agregan 5 clases diferentes al elemento envolvente de los path,  < g >. Las clases, al momento de insertarse, activan las animaciones definidas dentro del archivo de estilos. La inserción se produce justo al cliquear sobre el ícono "play". 
 
-Cada animación, cinco en total, actúa sobre grupos de paths diferentes apelando al uso de la pseudo-clase nth:child. Con la etiqueta < g > se pueden organizar grupos de < path > , tantos como se deseen, y en cada uno de ellos aplicar estilos o aimaciones diferentes. Las posibilidades de animación de la imagen son realmente muchas si usamos < g > de la mano con la  pseudoclase nth:child, solamente. Javascript, en este caso, solo se está usando para insertar las clases de manera dinámica. 
+Cada animación, cinco en total, actúa sobre grupos de paths diferentes apelando al uso de la pseudo-clase :nth-child. Con la etiqueta < g > se pueden organizar grupos de < path > , tantos como se deseen, y en cada uno de ellos aplicar estilos o aimaciones diferentes. Las posibilidades de animación de la imagen son realmente muchas si usamos < g > de la mano con la  pseudoclase :nth-child, solamente. Javascript, en este caso, solo se está usando para insertar las clases de manera dinámica.
 
 Si acudimos a los métodos  que javascript ofrece tendríamos un menú  tan diverso como gigante a lo ahora de pensar un animación. Quizá lo complejo es  lograr animaciones creativas e interesantes. Arte, en últimas. He ahí el reto.  
