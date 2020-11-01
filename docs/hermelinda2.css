@@ -1,0 +1,151 @@
+:root {
+    --main-color-blue: #2337F1;
+    --color-blue1: #4262F3;
+    --color-blue2: #5E83F5;
+    --color-blue3: #7AA1F7;
+    --color-blue4: #98BDF9;
+    --color-blue5: #B6D4FB;
+    --color-blue6: #D7EAFC;
+    --main-color-darkblue: #272839;
+    --color-darkblue1: #262B59;
+    --color-darkblue1A: #272B59;
+    --color-darkblue2: #252E7D;
+    --color-darkblue3: #24309A;
+    --color-darkblue4: #2433b8;
+    --color-darkblue5: #2335D6;
+    --color-gray1: #F6F3F3;
+    --color-gray2: #e7e4e7;
+    --color-gray3: #B4B3B7;
+    --color-gray4: #919097;
+    --color-gray5: #6E6E78;
+    --color-gray6: #494956;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.momContainer {
+    background-color: var(--color-darkblue1A);
+    margin: 10% auto;
+    width: 80%;
+    height: auto;
+    animation: destello1 .5s ease-in-out 2.5s backwards
+
+}
+
+@keyframes destello1 {
+
+to{
+    background-color: #94865c;
+}
+
+}
+
+
+
+#momContainer_boton {
+    margin-bottom: 10%;
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+}
+
+.monContainer path {
+    stroke: .1px;
+}
+
+/* selecciona los primeros 75 paths */
+
+.momUno path:nth-child(n+0) {
+    transform-origin: center;
+    animation: momUno 3s ease-out backwards, destello .2s ease-in-out 2.5s forwards;
+}
+
+@keyframes momUno {
+    0% {
+        transform: translate(-1100px, -300px);
+        fill: #d0a827;
+        fill-opacity: 0;
+        fill: grey
+    }
+    
+}
+
+/* Selecciona todos los paths a partir del path 75 */
+
+.momDos path:nth-child(n+60) {
+    transform-origin: center;
+    animation: momDos 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
+}
+
+@keyframes momDos {
+    0% {
+        stroke-width: 0;
+        fill: #d0a827;
+        fill-opacity: 0;
+        transform: translate(-1000px, -500px);
+    }
+    
+}
+
+.momTres path:nth-child(n+120) {
+    transform-origin: center;
+    animation: momTres 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
+}
+
+@keyframes momTres {
+    0% {
+         stroke-width: 0;
+        fill: #77611a;
+        fill-opacity: 0; 
+        transform: translate(-1200px, -600px);
+    }
+    
+}
+
+
+.momCuatro path:nth-child(n+180) {
+    transform-origin: center;
+    animation: momCuatro 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
+}
+
+@keyframes momCuatro {
+    0% {
+        transform: translate(-700px, -500px);
+        stroke-width: 0;
+        fill: #a28528;
+        fill-opacity: 0;
+       
+    }
+    
+}
+
+
+.momCinco path:nth-child(n+240) {
+    transform-origin: center;
+    animation: momCinco 3s ease-out forwards, destello2 .5s ease-in-out 2.5s forwards;
+}
+
+@keyframes momCinco {
+    0% {
+        transform: translate(-600px, -200px);
+        stroke-width: 0;
+        fill: #977504;
+        fill-opacity: 0;
+       
+    }
+    
+}
+
+
+@keyframes destello2 {
+from{
+    fill: #94865c;
+}
+
+}
