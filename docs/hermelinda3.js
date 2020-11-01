@@ -8,12 +8,12 @@ console.log(momUno)
       const btn = document.getElementById("momContainer_boton")
       
       function agregarClasesAMomUno() {
-          momUno.classList.add('momUno', 'monDos', 'momTres','momCuatro','momCinco' )
+          momUno.classList.add('momUno', 'momDos', 'momTres','momCuatro','momCinco' )
       }
 
 
       function removerClasesAMomUno() {
-        momUno.classList.remove('momUno', 'monDos', 'momTres','momCuatro','momCinco' )
+        momUno.classList.remove('momUno', 'momDos', 'momTres','momCuatro','momCinco' )
     }
 
 
