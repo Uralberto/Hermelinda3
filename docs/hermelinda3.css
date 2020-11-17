@@ -62,13 +62,13 @@ to{
 /* selecciona los primeros 75 paths */
 
 .momUno path:nth-child(n+0) {
-    transform-origin: center;
+    transform-origin: 941px 426px;
     animation: momUno 3s ease-out backwards, destello .2s ease-in-out 2.5s forwards;
 }
 
 @keyframes momUno {
     0% {
-        transform: translate(-1100px, -300px);
+        transform: translate(-1100px, -300px) rotateZ(20deg);
         fill: #d0a827;
         fill-opacity: 0;
         fill: grey
@@ -79,7 +79,7 @@ to{
 /* Selecciona todos los paths a partir del path 75 */
 
 .momDos path:nth-child(n+60) {
-    transform-origin: center;
+    transform-origin:  941px 426px;
     animation: momDos 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
 }
 
@@ -88,13 +88,13 @@ to{
         stroke-width: 0;
         fill: #d0a827;
         fill-opacity: 0;
-        transform: translate(-1000px, -500px);
+        transform: translate(-1000px, -500px) rotateZ(-30deg);
     }
     
 }
 
 .momTres path:nth-child(n+120) {
-    transform-origin: center;
+    transform-origin:  941px 426px;
     animation: momTres 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
 }
 
@@ -103,21 +103,20 @@ to{
          stroke-width: 0;
         fill: #77611a;
         fill-opacity: 0; 
-        transform: translate(-1200px, -600px);
+        transform: translate(-1200px, -600px) rotateZ(30deg);
     }
     
 }
 
 
 .momCuatro path:nth-child(n+180) {
-    transform-origin: center;
+    transform-origin: 941px 426px;
     animation: momCuatro 3s ease-out forwards, destello .5s ease-in-out 2.5s forwards;
 }
 
 @keyframes momCuatro {
     0% {
-        transform: translate(-700px, -500px);
-        stroke-width: 0;
+        transform: translate(-700px, -500px) rotateZ(-30deg);
         fill: #a28528;
         fill-opacity: 0;
        
@@ -127,13 +126,13 @@ to{
 
 
 .momCinco path:nth-child(n+240) {
-    transform-origin: center;
+    transform-origin: 941px 426px;
     animation: momCinco 3s ease-out forwards, destello2 .5s ease-in-out 2.5s forwards;
 }
 
 @keyframes momCinco {
     0% {
-        transform: translate(-600px, -200px);
+        transform: translate(-600px, -200px) rotateZ(30deg);
         stroke-width: 0;
         fill: #977504;
         fill-opacity: 0;
